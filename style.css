@@ -1,0 +1,56 @@
+body{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+}
+main{
+    display: flex;
+    flex-direction: column;
+}
+input{
+    margin: 1rem;
+    font-size: 20px;
+    padding: 0.5rem;
+    border-radius: 20px;
+    border: 2px solid blue;
+
+
+    transition: 1s;
+}
+
+input:focus {
+    outline: none;
+    box-shadow: none;
+    border: 1px solid #ccc;
+    border: 1px solid rgb(86, 86, 233);
+    box-shadow: 1px 1px 67px 0px rgba(46,99,179,0.77);
+    -webkit-box-shadow: 1px 1px 67px 0px rgba(46,99,179,0.77);
+    -moz-box-shadow: 1px 1px 67px 0px rgba(46,99,179,0.77);
+  }
+
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+
+  /* Para Firefox */
+  input[type=number] {
+    -moz-appearance: textfield;
+  }
+  h2{
+    color: white;
+  }
+
+
+  button{
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 1rem;
+    border-radius: 30px;
+    margin-top: 2rem;
+    border:1px solid white
+  }
